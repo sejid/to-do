@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<title>To-do list</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="stil.css"  />
+
+
+</head>
+
+<body>
+<div class="container">
+
+	<h1>Minimalist to-do list</h1>
+	<br />
+	<br />
+
+
+		<div class="unos">
+
+				<input type="text" name="tekst" id="tekst" size="25" placeholder="Type in to-do text...">
+				<button class="btn btn-primary btn-sm" onclick="addHtmlTableRow();">Add new</button>
+
+		</div>
+
+
+
+	<br />
+
+
+		<div class="container">
+				<div class="tab">
+						<table id="table" width="100%">
+								<tr>
+										<th width="80%">to-do text</th>
+										<th class="prva">Completed</th>
+										<th class="prva">Delete</th>
+								</tr>
+
+						</table>
+				</div>
+
+		</div>
+
+	<script type="text/javascript" src="todo.js"></script>
+
+
+</body>
+
+</html>
